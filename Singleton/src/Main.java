@@ -5,7 +5,7 @@ import Figuras.Triangulo;
 import excecoes.*;
 public class Main {
     public static void main(String[] args) throws ValorMenorOuIgualAZeroException {
-        Circulo circulo;
+        Circulo circulo = FabricaDeFiguras.getCirculo(6);;
         Triangulo trianguloRetangulo;
         Triangulo trianguloEquilatero;
         Triangulo trianguloEscaleno;
@@ -17,7 +17,6 @@ public class Main {
 
         Circulo circulo2;
 
-        circulo = FabricaDeFiguras.getCirculo(6);
         circulo2 = FabricaDeFiguras.getCirculo(9);
 
         System.out.println("\n" + circulo);
