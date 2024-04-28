@@ -28,4 +28,9 @@ public class Quadrado implements  FigurasGeometricas{
     public double calcularPerimetro() {
         return this.lado * 4;
     }
+
+    @Override
+    public String toString() {
+        return "Quadrado com lados de " + lado + "cms";
+    }
 }

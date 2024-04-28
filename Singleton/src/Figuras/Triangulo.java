@@ -85,4 +85,9 @@ public class Triangulo implements FigurasGeometricas{
     public double calcularPerimetro() {
         return lado1 + lado2 + lado3;
     }
+
+    @Override
+    public String toString() {
+        return "Os lados do triangulo sao iguais a: " + lado1 +"cm," + lado2 +"cm," + lado3 + "cm";
+    }
 }
