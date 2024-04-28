@@ -37,4 +37,10 @@ public class Circulo implements FigurasGeometricas {
     public void setRaio(double raio) {
         this.raio = raio;
     }
+
+    @Override
+    public String toString() {
+        return "Circulo com raio = " + raio;
+    }
+
 }
