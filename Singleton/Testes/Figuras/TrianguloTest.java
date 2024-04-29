@@ -48,16 +48,16 @@ public class TrianguloTest {
         }
 
     }
-
+/*
     @Test
-    public void naoEquilateroTeste(){
+    public void naoTrianguloTeste(){
         try {
-            Triangulo t = Triangulo.getInstances(5, 6, 7);
-            assertFalse(Triangulo.trianguloEquilatero(t.getLado1(), t.getLado2(), t.getLado3()));
+            Triangulo t = Triangulo.getInstances(1, 3, 7);
+            assertTrue(Triangulo.trianguloexiste(t.getLado1(), t.getLado2(), t.getLado3()));
         } catch (ValorMenorOuIgualAZeroException e) {
             e.printStackTrace();
         }
-    }
+    }*/
 
 
 

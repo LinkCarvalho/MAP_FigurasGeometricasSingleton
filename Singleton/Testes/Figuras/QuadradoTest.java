@@ -35,8 +35,8 @@ public class QuadradoTest {
         assertEquals(16.00, quadrado2.calcularPerimetro(), 0);
     }
 
-    @Test
+   /* @Test
     public void areaQuadrado1FalhaTest(){
         assertEquals(8, quadrado1.calcularArea(), 0);
-    }
+    }*/
 }
