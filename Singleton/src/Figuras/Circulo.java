@@ -4,7 +4,7 @@ public class Circulo implements FigurasGeometricas {
 
     private static Circulo instancia = null;
     private double raio;
-    public final double PI = 3.1415;
+    public final double PI = 3.14;
 
     private Circulo(double raio) throws ValorMenorOuIgualAZeroException{
         if(raio<=0){
