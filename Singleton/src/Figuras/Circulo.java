@@ -30,14 +30,6 @@ public class Circulo implements FigurasGeometricas {
         return 2 * PI * raio;
     }
 
-    public double getRaio() {
-        return raio;
-    }
-
-    public void setRaio(double raio) {
-        this.raio = raio;
-    }
-
     @Override
     public String toString() {
         return "Circulo com raio = " + raio;
