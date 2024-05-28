@@ -26,7 +26,7 @@ public class CirculoTest {
         assertEquals(25.12, circulo.calcularPerimetro(), 0);
     }
 
-/*
+
     @Test
     public void areaCirculoFalhaTest(){
         assertEquals(50, circulo.calcularArea(), 0);
@@ -36,7 +36,7 @@ public class CirculoTest {
     public void perimetroCirculoFalhaTest(){
         assertEquals(25.00, circulo.calcularPerimetro(), 0);
     }
-    */
+
 
 
 

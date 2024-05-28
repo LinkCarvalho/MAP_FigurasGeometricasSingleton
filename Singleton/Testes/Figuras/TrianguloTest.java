@@ -48,7 +48,7 @@ public class TrianguloTest {
         }
 
     }
-/*
+
     @Test
     public void naoTrianguloTeste(){
         try {
@@ -57,7 +57,7 @@ public class TrianguloTest {
         } catch (ValorMenorOuIgualAZeroException e) {
             e.printStackTrace();
         }
-    }*/
+    }
 
 
 
